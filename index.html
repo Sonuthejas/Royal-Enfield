@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/d190f0272e.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Royal Enfiled</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    
+</head>
+<style>
+
+.navbar{
+    background-color: black;
+    
+ }
+ .header{
+    position: sticky;
+    top:0;
+    z-index: 1;
+ }
+.container{
+    margin-left: auto;
+    
+
+}
+.nav-link{
+    color: white;
+    padding-right:60px;
+}
+.nav-link:hover{
+    color: brown;
+}
+.nav-item{
+    padding-left: 25px;
+    margin-left: 5px;
+}
+.dropdown-menu{
+    background-color: darkred;
+}
+.dropdown-menu:hover{
+    background-color: black;
+}
+.dropdown-item{
+    color: white;
+}
+.dropdown-item:hover{
+    color:black ;
+}
+.carousel-inner img{
+    width: 100%;
+    height: 100%;
+    
+}
+.btn{
+    background-color:green;
+    color: white;
+    margin-left: 15px;
+}
+.btn:hover{
+    color: red;
+}
+
+h1{
+    color: red;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: 900px;
+    font-size: 100px;
+    text-align: center;
+}
+.card{
+    box-shadow: 10px 10px 20px 10px;
+}
+.card:hover{
+    transform: translateY(-12px);
+    transition: 1s;
+    /* transform: scale(1.1); */
+}
+
+.jumbotron{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.btn1{
+    background-color: darkred;
+    margin-left: 680px;
+    margin-top: 20px;
+    
+}
+.btn1:hover{
+    /* background-color: aqua; */
+    color: black;
+}
+.footer{
+    margin-top: 60px;
+    background-color: black;
+    z-index: 1;
+    height: 380px;
+    position: relative;
+    bottom: -100px;
+   
+}
+hr{
+    color: green;
+}
+.images{
+    position: relative;
+     top: -30px; 
+}
+.container1 .navbar-nav{
+    position: relative;
+    bottom: 140px;
+}
+.logo{
+    margin-left: 40px;
+    position: relative;
+    bottom: 60px;
+}
+.nav-link1{
+    color: white;
+    padding-left: 70px;
+    
+}
+.nav-link1:hover{
+    color: brown;
+}
+.b{
+    line-height: 1.2;
+
+
+}
+body{
+    background-color: wheat;
+}
+.horizontal-line{
+  background-color: red;
+  display: block;
+  margin-top: -105px;
+  border-style: inset;
+  border-width: 1px;
+}
+
+
+.dropdown-menu{
+    background-color: darkred;
+}
+.text{
+    color: white;
+    font-size: larger;
+    font-style: italic;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 50px;
+    
+}
+.feed{
+    color: white;
+    font-size: larger;
+    font-style: italic;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 50px;
+}
+.text:hover{
+    color: red;
+
+}
+.feed:hover{
+    color: red;
+}
+.mail{
+    color: white;
+    margin-left: 25px;
+    margin-bottom: 80px;
+    font-size: 25px;
+    font-style: italic;
+}
+.mail:hover{
+    color: darkred;
+}
+.instagram{
+    font-size: 80px;
+    margin-left: 500px;
+    margin-bottom: 90px;
+    color: white;
+}
+.facebook{
+    margin-left: 50px;
+    font-size: 78px;
+    margin-bottom:5px;
+    color: white;
+}
+.play{
+    margin-left: 60px;
+    margin-bottom: 50px;
+    margin-right: 80px
+}
+.app{
+    margin-bottom: 50px;
+    margin-right:170px;
+}
+.instagram:hover{
+color: darkred;
+}
+.facebook:hover{
+    color: darkred;
+}
+.royal{
+    position: relative;
+    
+}
+.rounded-circle{
+    margin-left: 1400px;
+    height: 60px;
+    position: sticky;
+    bottom: 0;
+    z-index: 1;
+}
+.copy{
+    position: relative;
+    top: -20px;
+    color: white;
+}
+</style>
+<body>
+    <div class="header">
+    <nav class="navbar navbar-expand-sm ">
+      <a class="navbar-brand ml-3" href="/index.html"><img src="./source/logo.svg" alt="" width="200px" height="50px"></a>  
+      <div class="container">
+      <ul class="navbar-nav ml-auto ">
+
+        <li class="nav-item">
+        <a class="nav-link" href="/index.html">Home</a></li>
+
+        <li class="nav-item">
+        <a class="nav-link" href="/about-us.html">About us</a></li>
+
+        <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Sales</a>
+        <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Accessories</a>
+            <a class="dropdown-item" href="#">Products</a>
+        </div>
+        </li>
+
+        <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Service</a>
+        <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Free Service</a>
+            <a class="dropdown-item" href="#">Paid service</a>
+        </div>
+        </li>
+
+        <li clas="nav-item">
+            <a class="nav-link ml-3" href="/locate us.html">Locate Us</a>
+
+        </li>
+
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Own A Vechile</a>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Finance</a>
+                <a class="dropdown-item" href="#">Rentals</a>
+                <a class="dropdown-item" href="#">Book A Test ride</a>
+                <a class="dropdown-item" href="#">Configure</a>
+            </div>
+            </li>
+           
+            
+        <li class="nav-item">
+            <a class="nav-link" href="/feedback.html">Feedback</a></li>
+        
+            <li class="nav-item">
+            <a class="nav-link" href="/Support.html">Support</a></li>
+            <button type="button" class="btn b ml-3">Order Online</button>
+      </ul>
+      </div>
+      </nav>
+    </div>
+<div id="demo" class="carousel slide" data-ride="carousel">
+
+<ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="0"></li>
+    <li data-target="#demo" data-slide-to="0"></li>
+    <li data-target="#demo" data-slide-to="0"></li>
+    <li data-target="#demo" data-slide-to="0"></li>
+    <li data-target="#demo" data-slide-to="0"></li>
+
+</ul>
+<div class="carousel-inner">
+    <div class="carousel-item active">
+        <img src="./source/interceptor-home.jpeg" alt="Royal Enfiled Interceptor" width="1100" height="500">
+    </div>
+
+    <div class="carousel-item">
+        <img src="./source/continental-gt-home.avif" alt="continental-gt" width="1100" height="500">
+    </div>
+    <div class="carousel-item">
+        <img src="./source/scram-411-home.jpg" alt="scram" width="1100" height="500">
+    </div>
+    <div class="carousel-item">
+        <img src="./source/hunter-350-awards.jpeg" alt="hunter" width="1100" height="500">
+    </div>
+    <div class="carousel-item">
+        <img src="./source/motorcycle-of-the-year.jpg" alt="motorcycle" width="1100" height="500">
+    </div>
+    <div class="carousel-item">
+        <img src="./source/service-cost-calculator.jpg" alt="Service cost" width="1100" height="500">
+    </div>
+</div>
+</div>
+<a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span></a>
+
+<a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span></a>
+
+<a  href="" class="btn btn1">
+    <img src=".https://assets.limetray.com/assets/image_manager/uploads/7639/cart-oo.svg" alt="" height="20px" width="30px">
+    Order Online
+</a>
+
+<section class="jumbotron mt-3">
+<img src="./source/Royal_Enfield_Logo_full.png" class="" alt="" width="10%" height="">
+<img src="./source/f6c0bbe1-8098-9127-327b-2d9d9d4dd76d.webp" alt="" width="20%">
+<img src="./source/Meteor-350-logo-colour.webp" alt="meteor" width="15%">
+<img src="./source/patch-bordado-moto-royal-enfield-himalayan-logo-classico-termocolante.jpg" alt="himlayam" width="15%">
+<img src="./source/images.png" alt="image" width="10%">
+<img src="./source/images (1).png" alt="" width="10%">
+
+</section>
+
+        <div class="images"><img src="./source/interceptor-home-motorcycle.avif" alt="" width="100%" height="700"></div>
+    
+
+    <div class="container mt-5">
+        <h1>Discover Our Enfields</h1>
+    </div>
+
+    <div class="selection-cards">
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-6 col-4">
+        <div class="card" style="width: 500px">
+            <img class="card-img-top" src="./source/gallery-1280x800-7.jpg" alt="card image" style="width:100%">
+            <div class="card-body">
+                <h4 class="card-title">Classic 350 <a href="#" class="btn ml-5">Book A Test Ride</a></h4>
+                <p class="card-text">The All-New Classic 350 awakens your senses, and you see the beauty of the world for the first time all over again. Be Reborn.</p>
+
+
+            </div>
+        </div>
+    </div>
+
+    <div class="col-6 col-4">
+        <div class="card" style="width: 500px">
+            <img class="card-img-top" src="./source/bullet-350-majestic-stance.avif" alt="card image" height="312px" style="width:100%">
+            <div class="card-body">
+                <h4 class="card-title">Standard 350<a href="#" class="btn ml-5">Book A Test Ride</a></h4>
+                <p class="card-text">The All-New standard 350 awakens your senses, and you see the beauty of the world for the first time all over again. Be Reborn.</p>
+
+
+            </div>
+        </div>
+    </div>
+
+    <div class="col-6 col-4">
+        <div class="card mt-5" style="width: 500px">
+            <img class="card-img-top" src="./source/campaign-banner.jpg" alt="card image" height="307px" style="width:100%">
+            <div class="card-body">
+                <h4 class="card-title">Continental GT 650<a href="#" class="btn ml-5">Book A Test Ride</a></h4>
+                <p class="card-text">The All-New Continential gt 650 awakens your senses, and you see the beauty of the world for the first time all over again. Be Reborn.</p>
+
+
+            </div>
+        </div>
+    </div>
+
+    <div class="col-6 col-4">
+        <div class="card mt-5" style="width: 500px">
+            <img class="card-img-top" src="./source/quick-start-guide.avif" alt="card image" height="333px" style="width:100%">
+            <div class="card-body">
+                <h4 class="card-title">Interceptor 650<a href="#" class="btn ml-5">Book A Test Ride</a></h4>
+                <p class="card-text">The All-Interceptor 650 awakens your senses, and you see the beauty of the world for the first time all over again. Be Reborn.</p>
+
+
+            </div>
+        </div>
+    </div>
+
+    <div class="col-6 col-4">
+        <div class="card mt-5" style="width: 500px">
+            <img class="card-img-top" src="./source/gallery-7-thumbnail.jpg" alt="card image" height="306px" style="width:100%">
+            <div class="card-body">
+                <h4 class="card-title">Hunter 350<a href="#" class="btn ml-5">Book A Test Ride</a></h4>
+                <p class="card-text">The All-New Hunter 350 awakens your senses, and you see the beauty of the world for the first time all over again. Be Reborn.</p>
+
+
+            </div>
+        </div>
+    </div>
+
+    <div class="col-6 col-4">
+        <div class="card mt-5" style="width: 500px;">
+            <img class="card-img-top" src="./source/gallery-4.jpg" alt="card image" height="308px" style="width:100%">
+            <div class="card-body">
+                <h4 class="card-title">Meteor<a href="#" class="btn ml-5">Book A Test Ride</a></h4>
+                <p class="card-text">The All-New Meteor 350 awakens your senses, and you see the beauty of the world for the first time all over again. Be Reborn.</p>
+
+
+            </div>
+        </div>
+    </div>
+
+    <div class="col-6 col-4">
+        <div class="card mt-5" style="width: 500px;">
+            <img class="card-img-top" src="./source/specs.avif" alt="card image" height="310px" style="width:100%">
+            <div class="card-body">
+                <h4 class="card-title">Himalayan<a href="#" class="btn ml-5">Book A Test Ride</a></h4>
+                <p class="card-text">The All-Himalayan awakens your senses, and you see the beauty of the world for the first time all over again. Be Reborn.</p>
+
+
+            </div>
+        </div>
+    </div>
+
+    <div class="col-6 col-4">
+        <div class="card mt-5" style="width: 500px;">
+            <img class="card-img-top" src="./source/gallery-2.avif" alt="card image" height="310px" style="width:100%">
+            <div class="card-body">
+                <h4 class="card-title">Thunder-Bird 350X<a href="#" class="btn ml-5">Book A Test Ride</a></h4>
+                <p class="card-text">The All-Thunder Bird 350x awakens your senses, and you see the beauty of the world for the first time all over again. Be Reborn.</p>
+
+
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+</div>
+
+<div class="footer mt-5" data-aos="fade-up" data-aos-duration="500">
+    <nav class="navbar1 navbar-expand-sm ">
+        <a class="navbar1-brand ml-3" href="#"><img class="logo" src="./source/logo.svg" alt="" width="200px" height="250px"></a> 
+        
+        <div class="container1">
+        <ul class="navbar-nav ml-auto ">
+  
+          <li class="nav-item">
+          <a class="nav-link1" href="/index.html">Home</a></li>
+  
+          <li class="nav-item">
+          <a class="nav-link1" href="/about-us.html">About us</a></li>
+  
+          <li class="nav-item dropdown">
+          <a class="nav-link1 dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Sales</a>
+          <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Accessories</a>
+              <a class="dropdown-item" href="#">Products</a>
+          </div>
+           </li>
+  
+          <li class="nav-item dropdown">
+          <a class="nav-link1 dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Service</a>
+          <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Free Service</a>
+              <a class="dropdown-item" href="#">Paid service</a>
+          </div>
+          </li>
+  
+          <li clas="nav-item">
+              <a class="nav-link1" href="/locate us.html">Locate Us</a>
+  
+          </li>
+  
+              <li class="nav-item dropdown">
+              <a class="nav-link1 dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Own A Vechile</a>
+              <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Finance</a>
+                  <a class="dropdown-item" href="#">Rentals</a>
+                  <a class="dropdown-item" href="#">Book A Test ride</a>
+                  <a class="dropdown-item" href="#">Configure</a>
+              </div>
+              </li>
+             
+              
+          <li class="nav-item">
+              <a class="nav-link1" href="/feedback.html">Feedback</a></li>
+          
+              <li class="nav-item">
+              <a class="nav-link1" href="/Support.html">Support</a></li>
+              <br>
+              <button type="button" class="btn  b ml-3">Order Online</button>
+          
+               
+        </ul>
+    
+        <hr class="horizontal-line">
+        <div class="container5"><a class="text" href="/terms and contions.html">Terms & Conditions</a>
+            <a class="feed ml-5" href="/feedback.html">Feedback</a>
+        
+        </div>
+        <a class="mail" href="">royalenfield5522@gmail.com</a>
+
+                <a class="instagram" href="#"><i class="fa-brands fa-instagram fa-2xs"></i></a>
+                <a class="facebook" href=""><i class="fa-brands fa-facebook fa-2xs"></i></a>
+
+                <a href=""><img class="play" src="https://assets.limetray.com/assets/image_manager/uploads/21533/app-store-android-white.png" width="100p%"></a>
+                <a href=""><img class="app" src="https://assets.limetray.com/assets/image_manager/uploads/21533/app-store-ios-white.png" width="100p%"></a>
+        
+        
+        
+        
+        </div>
+        <div class="copy">
+            &copy;2022. Royal Enfield. | *T&C apply. Images shown here may differ from the actual product. 
+        </div> 
+        </nav>
+        
+        
+        
+    </div>
+    <br>
+    
+    <img src="./source/E2j3y4jB48fQ1638875637694.png" class="rounded-circle" alt="">
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>   
+<script>
+    AOS.init();
+  </script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
